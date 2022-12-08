@@ -1,0 +1,15 @@
+{
+  "name": "project-restapi",
+  "version": "1.0.0",
+  "description": "it is project of build rest api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "abhishek pandit",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.7.4"
+  }
+}
