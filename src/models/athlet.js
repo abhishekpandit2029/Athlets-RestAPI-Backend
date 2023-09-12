@@ -37,6 +37,4 @@ const athletSchema = new mongoose.Schema({
     },
 })
 
-const athletRanking = new mongoose.model("athletRanking", athletSchema)
-
-module.exports = athletRanking
+module.exports = mongoose.model("athletRanking", athletSchema)
